@@ -1,8 +1,10 @@
 """
-~ Name:
-~ Class:
-~ Date:
-~ Description:
+~ Name: Thomas Nigro
+~ Class: CST 205
+~ Date: 3/26/25
+~ Description:  Installs Bootstrap-Flask and sets it up as
+                directed from the slides. It also adds an
+                image using the directed code.
 """
 
 """
