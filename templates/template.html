@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+        {{ bootstrap.load_css() }}
+
+        <title>Task 4 - Display an Image</title>
+    </head>
+    <body>
+        <!-- Your page content -->
+	<div class="container">
+        <h1>
+            Displaying an Image
+        </h1>
+
+        <div class="text-center">
+            <img src="{{ url_for('static', filename='thanos.jpg') }}" class="rounded w-50" alt="Thanos">
+        </div>
+
+      </div>
+
+      <!-- Optional JavaScript -->
+      {{ bootstrap.load_js() }}
+
+    </body>
+</html>
